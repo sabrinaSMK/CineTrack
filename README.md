@@ -1,21 +1,27 @@
 # 🎬 CineTrack
 
 <p align="center">
-  <img src="app/src/main/res/drawable/logo_cinetrack.png" width="280"/>
+  <img src="imagens/logo.png" width="280"/>
 </p>
 
-## 📖 Sobre o projeto
+<p align="center">
+Aplicativo Android para gerenciamento pessoal de filmes 🎬
+</p>
+
+---
+
+## 📖 Sobre o Projeto
 
 O **CineTrack** é um aplicativo Android desenvolvido em **Java** utilizando **SQLite**, criado para auxiliar usuários no gerenciamento de filmes assistidos e daqueles que desejam assistir.
 
-O aplicativo permite cadastrar filmes, avaliar utilizando estrelas, adicionar comentários, editar informações e acompanhar estatísticas do catálogo através de uma interface moderna inspirada no universo do cinema.
+O aplicativo permite cadastrar filmes, editar informações, excluir registros, avaliar utilizando estrelas, adicionar comentários e acompanhar estatísticas do catálogo por meio de uma interface moderna inspirada no universo do cinema.
 
 ---
 
 ## ✨ Funcionalidades
 
 - 🎬 Cadastro de filmes
-- 📋 Listagem de filmes
+- 📋 Listagem de filmes cadastrados
 - ✏️ Edição de filmes
 - 🗑️ Exclusão com confirmação
 - ⭐ Avaliação por estrelas (RatingBar)
@@ -28,21 +34,25 @@ O aplicativo permite cadastrar filmes, avaliar utilizando estrelas, adicionar co
 
 ---
 
-## 📱 Telas do aplicativo
+## 📱 Telas do Aplicativo
 
-- Splash Screen
-- Tela Principal
-- Lista de Filmes
-- Tela de Edição
+| Splash Screen | Tela Principal |
+|:--------------:|:--------------:|
+| <img src="imagens/splash.jpeg" width="250"> | <img src="imagens/home.jpeg" width="250"> |
+
+| Lista de Filmes | Tela de Edição |
+|:---------------:|:--------------:|
+| <img src="imagens/lista.jpeg" width="250"> | <img src="imagens/editar.jpeg" width="250"> |
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## 🛠 Tecnologias Utilizadas
 
 - Java
 - Android Studio
 - SQLite
 - XML
+- Material Design
 - Git
 - GitHub
 
@@ -50,28 +60,41 @@ O aplicativo permite cadastrar filmes, avaliar utilizando estrelas, adicionar co
 
 ## 📂 Estrutura do Projeto
 
-```
+```text
 CineTrack
 │
-├── database
-│   └── DatabaseHelper.java
+├── app
+│   ├── src
+│   │   ├── main
+│   │   │   ├── java
+│   │   │   │   ├── database
+│   │   │   │   │   └── DatabaseHelper.java
+│   │   │   │   ├── model
+│   │   │   │   │   └── Filme.java
+│   │   │   │   ├── MainActivity.java
+│   │   │   │   ├── SplashActivity.java
+│   │   │   │   ├── ListaFilmesActivity.java
+│   │   │   │   └── EditarFilmeActivity.java
+│   │   │   └── res
+│   │   │       ├── layout
+│   │   │       ├── drawable
+│   │   │       └── mipmap
 │
-├── model
-│   └── Filme.java
+├── imagens
+│   ├── logo.png
+│   ├── splash.jpeg
+│   ├── home.jpeg
+│   ├── lista.jpeg
+│   └── editar.jpeg
 │
-├── MainActivity
-├── SplashActivity
-├── ListaFilmesActivity
-├── EditarFilmeActivity
-│
-└── layouts XML
+└── README.md
 ```
 
 ---
 
-## 🚀 Como executar
+## 🚀 Como Executar
 
-1. Clone este repositório
+1. Clone este repositório:
 
 ```bash
 git clone https://github.com/sabrinaSMK/CineTrack.git
@@ -79,13 +102,15 @@ git clone https://github.com/sabrinaSMK/CineTrack.git
 
 2. Abra o projeto no Android Studio.
 
-3. Execute o aplicativo em um emulador ou dispositivo Android.
+3. Aguarde o Gradle sincronizar.
+
+4. Execute o aplicativo em um emulador ou dispositivo Android.
 
 ---
 
 ## 💾 Banco de Dados
 
-O aplicativo utiliza **SQLite** para armazenar todas as informações localmente no dispositivo, sem necessidade de conexão com a internet.
+O aplicativo utiliza **SQLite** para armazenar todas as informações localmente no dispositivo, dispensando conexão com a internet para funcionamento.
 
 ---
 
@@ -100,4 +125,10 @@ O aplicativo utiliza **SQLite** para armazenar todas as informações localmente
 
 **CineTrack v1.0**
 
-Projeto desenvolvido para a disciplina de Desenvolvimento Mobile.
+Projeto desenvolvido para a disciplina de **Desenvolvimento Mobile**.
+
+---
+
+<p align="center">
+💙 Desenvolvido com dedicação para organizar seu catálogo pessoal de filmes. 🎬
+</p>
