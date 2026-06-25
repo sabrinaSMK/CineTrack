@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_cinema">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_cinetrack" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar Filme"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/etTituloEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:hint="Título do Filme"
+            android:textColor="@color/white"
+            android:textColorHint="@color/light_gray"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etGeneroEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:hint="Gênero"
+            android:textColor="@color/white"
+            android:textColorHint="@color/light_gray"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avaliação"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp"/>
+
+        <RatingBar
+            android:id="@+id/ratingNotaEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etStatusEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:hint="Assistido ou Quero Assistir"
+            android:textColor="@color/white"
+            android:textColorHint="@color/light_gray"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etComentarioEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:hint="Comentário"
+            android:textColor="@color/white"
+            android:textColorHint="@color/light_gray"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnAtualizar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Salvar Alterações"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:backgroundTint="#2196F3"/>
+
+    </LinearLayout>
+
+</ScrollView>
