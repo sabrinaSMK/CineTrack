@@ -1,4 +1,4 @@
-# 🎬 CineTrack
+#  CineTrack
 
 <p align="center">
   <img src="imagens/logo.png" width="280"/>
@@ -18,23 +18,23 @@ O aplicativo permite cadastrar filmes, editar informações, excluir registros, 
 
 ---
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
-- 🎬 Cadastro de filmes
-- 📋 Listagem de filmes cadastrados
-- ✏️ Edição de filmes
-- 🗑️ Exclusão com confirmação
-- ⭐ Avaliação por estrelas (RatingBar)
-- 🎭 Status do filme (Assistido / Quero Assistir)
-- 💬 Comentários pessoais
-- 📊 Dashboard com estatísticas
-- 🎨 Interface personalizada
-- 🚀 Splash Screen
-- 📱 Ícone personalizado do aplicativo
+-  Cadastro de filmes
+-  Listagem de filmes cadastrados
+-  Edição de filmes
+-  Exclusão com confirmação
+-  Avaliação por estrelas (RatingBar)
+-  Status do filme (Assistido / Quero Assistir)
+-  Comentários pessoais
+-  Dashboard com estatísticas
+-  Interface personalizada
+-  Splash Screen
+-  Ícone personalizado do aplicativo
 
 ---
 
-## 📱 Telas do Aplicativo
+##  Telas do Aplicativo
 
 | Splash Screen | Tela Principal |
 |:--------------:|:--------------:|
@@ -58,7 +58,7 @@ O aplicativo permite cadastrar filmes, editar informações, excluir registros, 
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 CineTrack
@@ -92,7 +92,7 @@ CineTrack
 
 ---
 
-## 🚀 Como Executar
+##  Como Executar
 
 1. Clone este repositório:
 
@@ -114,14 +114,14 @@ O aplicativo utiliza **SQLite** para armazenar todas as informações localmente
 
 ---
 
-## 👩‍💻 Desenvolvedoras
+##  Desenvolvedoras
 
 - Sabrina Mikaela Bessa Brito
 - Laura de Matos Martins
 
 ---
 
-## 📌 Versão
+##  Versão
 
 **CineTrack v1.0**
 
@@ -130,5 +130,5 @@ Projeto desenvolvido para a disciplina de **Desenvolvimento Mobile**.
 ---
 
 <p align="center">
-💙 Desenvolvido com dedicação para organizar seu catálogo pessoal de filmes. 🎬
+ Desenvolvido com dedicação para organizar seu catálogo pessoal de filmes. 
 </p>
